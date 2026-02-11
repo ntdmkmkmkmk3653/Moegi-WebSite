@@ -26,9 +26,9 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased mt-20`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased mt-21`}
       >
-        <header className="fixed top-0 left-0 w-full h-20 z-10">
+        <header className="fixed top-0 left-0 w-full h-21 z-10">
           <Header />
         </header>
         {children}
