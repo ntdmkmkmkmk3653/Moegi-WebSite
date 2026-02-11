@@ -8,7 +8,16 @@ export default function Home() {
   return (
     <div>
       <main>
-        <p>topページですよ</p>
+        <section className="KeyVisual">
+          <div className="relative w-full h-128">
+            <Image
+              src="/top.jpg"
+              alt="Key Visual"
+              fill
+              className="object-cover"
+            />
+          </div>
+        </section>
       </main>
     </div>
   );
