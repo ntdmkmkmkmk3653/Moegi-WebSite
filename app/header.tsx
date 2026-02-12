@@ -18,9 +18,9 @@ export default function Header() {
             <div className="p-5 !pr-8" id="nav">
                 <div className="flex pb-3 pr-1 [&>*]:space-x-3 justify-end">
                 <ul className="my-auto [&>*]:pl-1 text-sm text-[#12523c] [&>*]:transition-opacity [&>*]:hover:opacity-60">
-                    <Link href="https://www.pen-kanagawa.ed.jp/kanagawasogosangyo-h/zennichi/index.html" target="_blank">学校ホームページ（外部）</Link>
                     <Link href="https://www.pen-kanagawa.ed.jp/kanagawasogosangyo-h/zennichi/seikatsu/bunkabu/electronics.html" target="_blank">部活ホームページ（外部）</Link>
                     <Link href="/">お知らせ</Link>
+                    <Link href="/">会員様向けページ</Link>
                 </ul>
                 </div>
                 <div className="flex [&>*]:space-x-3">
